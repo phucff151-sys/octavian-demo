@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhonePro | Website bán điện thoại</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <p>Miễn phí giao hàng từ 3 triệu • Bảo hành chính hãng 12 tháng</p>
+        <div class="topbar-actions">
+          <a href="#">Theo dõi đơn hàng</a>
+          <a href="#">Hỗ trợ 24/7</a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <div class="container nav-inner">
+        <div class="brand">
+          <div class="brand-mark">P</div>
+          <div>
+            <span class="brand-name">PhonePro</span>
+            <small>Smart Tech Store</small>
+          </div>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#home">Trang chủ</a></li>
+          <li><a href="#products">Sản phẩm</a></li>
+          <li><a href="#offers">Khuyến mãi</a></li>
+          <li><a href="#brands">Thương hiệu</a></li>
+          <li><a href="#reviews">Đánh giá</a></li>
+          <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+
+        <button class="menu-button">
+          ☰
+        </button>
+          <div class="search-box">
+  <input type="text" id="searchInput" placeholder="Tìm điện thoại...">
+  <button class="icon-button">⌕</button>
+</div>
+          <button class="icon-button cart-button" aria-label="Giỏ hàng">
+            🛒
+            <span class="cart-count">+999</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-slider">
+          <div class="hero-slide active">
+            <img src="anh/16.jpg" alt="iPhone 16 Pro Max" />
+            <div class="hero-content">
+             <span class="badge">Mới ra mắt</span>
+             <h1>iPhone 16 Pro Max</h1>
+             <p>Siêu phẩm công nghệ với chip A18 Pro, màn hình OLED 6.9 inch và camera cải tiến.</p>
+             <div class="hero-actions">
+               <button class="primary-btn">Xem ngay</button>
+               <button class="secondary-btn">Mua trả góp</button>
+             </div>
+            </div>
+          </div>
+
+          <div class="hero-slide">
+            <img src="anh/anh-iphone-17-th.jpg" alt="iPhone 17" />
+            <div class="hero-content">
+             <span class="badge">Hot deal</span>
+             <h1>iPhone 17</h1>
+             <p>Hiệu năng mạnh mẽ, thiết kế tinh tế, trải nghiệm ấn tượng cho mọi nhu cầu.</p>
+             <div class="hero-actions">
+               <button class="primary-btn">Xem ngay</button>
+               <button class="secondary-btn">Mua trả góp</button>
+             </div>
+            </div>
+          </div>
+
+          <div class="hero-slide">
+            <img src="anh/hinh-anh-iphone-17-pro-max-01.webp" alt="i" />
+            <div class="hero-content">
+             <span class="badge">Công nghệ cao</span>
+             <h1>iPhone 17 Pro Max</h1>
+             <p>Camera AI, pin bền bỉ và màn hình sắc nét, sẵn sàng cho mọi tác vụ.</p>
+             <div class="hero-actions">
+               <button class="primary-btn">Xem ngay</button>
+               <button class="secondary-btn">Mua trả góp</button>
+             </div>
+            </div>
+          </div>
+
+          <div class="hero-slide">
+            <img src="anh/khung-vien-cua-nhung-phien-ban-iphone-14-duoc-lam-tu-titan-1-750x536.jpg" alt="iPhone 14 Pro Max" />
+            <div class="hero-content">
+             <span class="badge">Giá tốt</span>
+             <h1>iPhone 14 Pro Max</h1>
+             <p>Thiết kế đẹp, chụp ảnh ấn tượng và hiệu năng vượt trội trong tầm giá.</p>
+             <div class="hero-actions">
+               <button class="primary-btn">Xem ngay</button>
+               <button class="secondary-btn">Mua trả góp</button>
+             </div>
+            </div>
+          </div>
+
+          <div class="hero-slide">
+            <img src="anh/Screenshot_2025-06-27_at_10.32.09_AM.png" alt="iPhone" />
+            <div class="hero-content">
+             <span class="badge">Camera đẹp</span>
+             <h1>iPhone 16</h1>
+             <p>Trải nghiệm chụp ảnh đỉnh cao, màn hình sáng và pin dày trâu, bền bỉ.</p>
+             <div class="hero-actions">
+               <button class="primary-btn">Xem ngay</button>
+               <button class="secondary-btn">Mua trả góp</button>
+             </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="slider-btn prev" aria-label="Trang trước">❮</button>
+        <button class="slider-btn next" aria-label="Trang sau">❯</button>
+
+        <div class="thumbnails" aria-label="Chọn banner">
+          <img src="anh/16.jpg" class="thumbnail active-thumb" alt="thumb 1" />
+          <img src="anh/anh-iphone-17-th.jpg" class="thumbnail" alt="thumb 2" />
+          <img src="anh/hinh-anh-iphone-17-pro-max-01.webp" class="thumbnail" alt="thumb 3" />
+          <img src="anh/khung-vien-cua-nhung-phien-ban-iphone-14-duoc-lam-tu-titan-1-750x536.jpg" class="thumbnail" alt="thumb 4" />
+          <img src="anh/Screenshot_2025-06-27_at_10.32.09_AM.png" class="thumbnail" alt="thumb 5" />
+        </div>
+      </section>
+
+      <section class="features container">
+        <div class="feature-item">
+          <span>🚚</span>
+          <div>
+            <h4>Giao hàng nhanh</h4>
+            <p>Trong 2-4 giờ tại nội thành</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <span>🛡️</span>
+          <div>
+            <h4>Bảo hành chính hãng</h4>
+            <p>12 tháng uy tín</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <span>💳</span>
+          <div>
+            <h4>Trả góp 0%</h4>
+            <p>Hỗ trợ lãi suất ưu đãi</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <span>🎧</span>
+          <div>
+            <h4>Hỗ trợ 24/7</h4>
+            <p>Tư vấn chuyên nghiệp</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="category container" id="brands">
+        <div class="section-heading">
+          <p>Danh mục nổi bật</p>
+          <h2>Khám phá theo thương hiệu</h2>
+        </div>
+        <div class="category-grid">
+          <div class="category-card iPhone17">
+            <span>Apple</span>
+            <strong>iPhone 17 </strong>
+            <small>30+ mẫu</small>
+          </div>
+          <div class="category-card iPhone16">
+            <span>Apple</span>
+            <strong>iPhone 16</strong>
+            <small>24+ mẫu</small>
+          </div>
+          <div class="category-card iPhone15">
+            <span>Apple</span>
+            <strong>iPhone 15</strong>
+            <small>18+ mẫu</small>
+          </div>
+          <div class="category-card iPhone14">
+            <span>Apple</span>
+            <strong>iPhone 14</strong>
+            <small>15+ mẫu</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="products container" id="products">
+        <div class="section-heading row">
+          <div>
+            <p>Sản phẩm bán chạy</p>
+            <h2>Điện thoại hot nhất</h2>
+          </div>
+          <div class="filter-tabs">
+            <button class="filter-btn active" data-filter="all">Tất cả</button>
+            <button class="filter-btn" data-filter="iphone17">iPhone 17</button>
+            <button class="filter-btn" data-filter="iphone16">iPhone 16</button>
+            <button class="filter-btn" data-filter="iphone15">iPhone 15</button>
+            <button class="filter-btn" data-filter="iphone14">iPhone 14</button>
+          </div>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card" data-category="iphone17">
+            <div class="product-badge">-12%</div>
+            <img src="anh/ip17cam.jpg" alt="iPhone 17 Pro Max" />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 5</span>
+             </div>
+             <h3>iPhone 17 Pro Max 512GB Cũ Đẹp 99% - Không Zin Tặng Máy</h3>
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>29.990.000đ</strong>
+                 <small>34.990.000đ</small>
+               </div>
+               <div class="product-buttons">
+                  <button class="add-cart">Thêm</button>
+                    <button class="buy-now">Mua</button>
+                     </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="iphone17">
+            <div class="product-badge">Hot</div>
+            <img src="anh/17.jpg" alt="iPhone 17" />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 4.8</span>
+             </div>
+             <h3>iPhone 17 256GB Chính Hãng - Bảo hành 2 năm</h3>
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>23.990.000đ</strong>
+                 <small>25.990.000đ</small>
+               </div>
+               <div class="product-buttons">
+                   <button class="add-cart">Thêm</button>
+                   <button class="buy-now">Mua</button>
+                    </div>
+               
+             </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="iphone17">
+            <div class="product-badge">Mới</div>
+            <img src="anh/17pro.jpg" alt="iPhone 17 Pro " />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 4.9</span>
+             </div>
+             <h3>iPhone 17 Pro Max 256GB Chính Hãng - Bảo hành 2 năm</h3>
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>33.490.000đ</strong>
+                 <small>37.990.000đ</small>
+               </div>
+               <div class="product-buttons">
+                 <button class="add-cart">Thêm</button>
+                 <button class="buy-now">Mua</button>
+               </div>
+             </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="iphone16">
+            <div class="product-badge">-26%</div>
+            <img src="anh/ip16prm.webp" alt="iPhone 16 Pro Max" />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 4.9</span>
+             </div>
+             <h3>iPhone 16 Pro Max Cũ Like New 99% VN/A - Giá Rẻ Nhất, Trả Góp 0%</h3>
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>26.000.000đ</strong>
+                 <small>34.990.000đ</small>
+               </div>
+               <div class="product-buttons">
+                 <button class="add-cart">Thêm</button>
+                 <button class="buy-now">Mua</button>
+               </div>
+             </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="iphone16">
+            <div class="product-badge">Giảm sốc</div>
+            <img src="anh/16pro.jpg" alt="iPhone 16 Pro" />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 4.8</span>
+             </div>
+             <h3>iPhone 16 Pro 256GB Chính Hãng VN/A</h3>
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>20.990.000đ</strong>
+                 <small>25.000.000đ</small>
+               </div>
+               <div class="product-buttons">
+                 <button class="add-cart">Thêm</button>
+                 <button class="buy-now">Mua</button>
+               </div>
+             </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="iphone16">
+            <div class="product-badge">Bestseller</div>
+            <img src="anh/16plus.jpg" alt="iPhone 16 Plus" />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 4.8</span>
+             </div>
+             <h3>iPhone 16 Plus 128GB Chính Hãng VN/A - Bảo hành 2 năm</h3>
+
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>13.490.000đ</strong>
+                 <small>15.990.000đ</small>
+               </div>
+               <div class="product-buttons">
+                 <button class="add-cart">Thêm</button>
+                 <button class="buy-now">Mua</button>
+               </div>
+             </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="iphone15">
+            <div class="product-badge">-8%</div>
+            <img src="anh/15prm.jpg" alt="iPhone 15 Pro Max" />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 4.8</span>
+             </div>
+             <h3>iPhone 15 Pro Max 512GB VN/A</h3>
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>17.490.000đ</strong>
+                 <small>18.990.000đ</small>
+               </div>
+               <div class="product-buttons">
+                 <button class="add-cart">Thêm</button>
+                 <button class="buy-now">Mua</button>
+               </div>
+             </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="iphone15">
+            <div class="product-badge">-10%</div>
+            <img src="anh/15.webp" alt="iPhone 15" />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 4.6</span>
+             </div>
+             <h3>iPhone 15 256GB VN/A - Bảo hành 2 năm</h3>
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>13.990.000đ</strong>
+                 <small>15.990.000đ</small>
+               </div>
+               <div class="product-buttons">
+                 <button class="add-cart">Thêm</button>
+                 <button class="buy-now">Mua</button>
+               </div>
+             </div>
+            </div>
+          </article>
+          <article class="product-card" data-category="iphone15">
+            <div class="product-badge">-8%</div>
+            <img src="anh/15.webp" alt="iPhone 15 Plus" />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 4.8</span>
+             </div>
+             <h3>iPhone 15 Plus 256GB VN/A</h3>
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>14.490.000đ</strong>
+                 <small>15.990.000đ</small>
+               </div>
+               <div class="product-buttons">
+                 <button class="add-cart">Thêm</button>
+                 <button class="buy-now">Mua</button>
+               </div>
+             </div>
+            </div>
+          </article>
+          <article class="product-card" data-category="iphone14">
+            <div class="product-badge">-8%</div>
+            <img src="anh/14prm.webp" alt="iPhone 14 Pro Max" />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 4.8</span>
+             </div>
+             <h3>iPhone 14 Pro Max 256GB cũ đẹp 99% - Không zin tặng máy</h3>
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>16.490.000đ</strong>
+                 <small>17.990.000đ</small>
+               </div>
+               <div class="product-buttons">
+                 <button class="add-cart">Thêm</button>
+                 <button class="buy-now">Mua</button>
+               </div>
+             </div>
+            </div>
+          </article>
+          <article class="product-card" data-category="iphone14">
+            <div class="product-badge">-8%</div>
+            <img src="anh/14prm.webp" alt="iPhone 14 Pro" />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 4.8</span>
+             </div>
+             <h3>iPhone 14 Pro Max 256GB cũ đẹp 99% - Không zin tặng máy</h3>
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>17.490.000đ</strong>
+                 <small>18.990.000đ</small>
+               </div>
+               <div class="product-buttons">
+                 <button class="add-cart">Thêm</button>
+                 <button class="buy-now">Mua</button>
+               </div>
+             </div>
+            </div>
+          </article>
+          <article class="product-card" data-category="iphone15">
+            <div class="product-badge">-8%</div>
+            <img src="anh/15prm.jpg" alt="iPhone 15 Pro Max" />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 4.8</span>
+             </div>
+             <h3>iPhone 15 Pro Max 512GB VN/A</h3>
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>17.490.000đ</strong>
+                 <small>18.990.000đ</small>
+               </div>
+               <div class="product-buttons">
+                 <button class="add-cart">Thêm</button>
+                 <button class="buy-now">Mua</button>
+               </div>
+             </div>
+            </div>
+          </article>
+          <article class="product-card" data-category="iphone15">
+            <div class="product-badge">-8%</div>
+            <img src="anh/15prm.jpg" alt="iPhone 15 Pro Max" />
+            <div class="product-body">
+             <div class="product-meta">
+               <span>iPhone</span>
+               <span>⭐ 4.8</span>
+             </div>
+             <h3>iPhone 15 Pro Max 512GB VN/A</h3>
+             <div class="product-footer">
+
+               <div class="price-box">
+                 <strong>17.490.000đ</strong>
+                 <small>18.990.000đ</small>
+               </div>
+               <div class="product-buttons">
+                 <button class="add-cart">Thêm</button>
+                 <button class="buy-now">Mua</button>
+               </div>
+             </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="promo container" id="offers">
+        <div class="promo-text">
+          <p>Khuyến mãi trong tuần</p>
+          <h2>Ưu đãi lên đến 35% cho các dòng máy cao cấp</h2>
+          <ul>
+            <li>Giảm giá thêm khi thanh toán qua ngân hàng</li>
+            <li>Tặng kèm phụ kiện chính hãng</li>
+            <li>Miễn phí lắp đặt và bảo hành</li>
+          </ul>
+          <button class="primary-btn">Khám phá ngay</button>
+        </div>
+        <div class="promo-visual">
+          <img src="anh/16.jpg" alt="iPhone 16 Pro" />
+        </div>
+      </section>
+
+      <section class="reviews container" id="reviews">
+        <div class="section-heading center">
+          <p>Khách hàng nói gì</p>
+          <h2>Đánh giá từ người mua</h2>
+        </div>
+        <div class="review-grid">
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"Mua iPhone 16 ở đây rất nhanh, ship đúng hẹn, nhân viên tư vấn chuyên nghiệp. Sản phẩm nguyên seal và giá rất tốt."</p>
+            <div class="reviewer">
+             <strong>Lan Anh</strong>
+             <span>Khách hàng Hà Nội</span>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"Giao hàng ngay trong ngày, máy đẹp, giao diện mượt, tôi rất hài lòng. Sẽ quay lại mua tiếp khi cần nâng cấp."</p>
+            <div class="reviewer">
+             <strong>Minh Hoàng</strong>
+             <span>Khách hàng Đà Nẵng</span>
+            </div>
+          </div>
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"Chất lượng phụ kiện và bảo hành rõ ràng, đội ngũ hỗ trợ giải đáp nhanh. Rất đáng tin cậy cho người mua điện thoại."</p>
+            <div class="reviewer">
+             <strong>Thảo Vy</strong>
+             <span>Khách hàng TP.HCM</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <div class="brand-mark">P</div>
+            <div>
+             <span class="brand-name">PhonePro</span>
+             <small>Smart Tech Store</small>
+            </div>
+          </div>
+          <p>Chuyên cung cấp điện thoại chính hãng, phụ kiện, hỗ trợ trả góp và bảo hành trên toàn quốc.</p>
+        </div>
+
+        <div>
+          <h4>Liên kết</h4>
+          <ul>
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#products">Sản phẩm</a></li>
+            <li><a href="#offers">Khuyến mãi</a></li>
+            <li><a href="#reviews">Đánh giá</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Hỗ trợ</h4>
+          <ul>
+            <li><a href="#">Chính sách bảo hành</a></li>
+            <li><a href="#">Trả góp 0%</a></li>
+            <li><a href="#">Giao hàng</a></li>
+            <li><a href="#">Liên hệ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Liên hệ</h4>
+          <ul>
+            <li>📍 123 Lê Lợi, Quận 1, TP.HN</li>
+            <li>📞 0987 654 321</li>
+            <li>✉️ support@phonepro.vn</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 PhonePro. Tất cả quyền được bảo lưu.</p>
+      </div>
+    </footer>
+
+    <button id="topBtn">
+    ↑
+</button>
+
+<script src="script.js"></script>
+  </body>
+</html>
+
